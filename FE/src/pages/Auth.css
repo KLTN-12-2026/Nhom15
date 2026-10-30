@@ -1,0 +1,168 @@
+
+/* NỀN TRANG ĐĂNG NHẬP - ĐĂNG KÝ */
+.auth-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eaf7ff, #f7fbff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+}
+
+/* KHUNG FORM */
+.auth-box {
+  width: 100%;
+  max-width: 460px;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 35px rgba(20, 90, 130, 0.12);
+}
+
+.register-box {
+  max-width: 560px;
+}
+
+/* LOGO */
+.auth-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-logo h1 {
+  color: #087fc4;
+  font-size: 29px;
+}
+
+.auth-logo p {
+  color: #8297a8;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+/* TIÊU ĐỀ */
+.auth-box h2 {
+  text-align: center;
+  color: #193b56;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.auth-description {
+  text-align: center;
+  color: #8297a8;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* INPUT */
+.form-group {
+  margin-bottom: 19px;
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #344d62;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 46px;
+  padding: 0 13px;
+  border: 1px solid #d6e2eb;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #087fc4;
+  box-shadow: 0 0 0 3px rgba(8, 127, 196, 0.1);
+}
+
+/* HAI CỘT */
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+/* NÚT */
+.auth-button {
+  width: 100%;
+  height: 48px;
+  background: #087fc4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.auth-button:hover {
+  background: #05649c;
+}
+
+/* THÔNG BÁO */
+.error-message {
+  color: #dc3545;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+/* QUÊN MẬT KHẨU */
+.forgot-password {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  color: #087fc4;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/* CHUYỂN TRANG */
+.auth-switch {
+  text-align: center;
+  margin-top: 23px;
+  font-size: 14px;
+  color: #718598;
+}
+
+.auth-switch a {
+  color: #087fc4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-home {
+  display: block;
+  text-align: center;
+  margin-top: 22px;
+  color: #087fc4;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* ĐIỆN THOẠI */
+@media (max-width: 500px) {
+  .auth-box {
+    padding: 25px 20px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
